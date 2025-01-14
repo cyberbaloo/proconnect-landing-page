@@ -14,27 +14,16 @@ function WantToIntegrateProConnect() {
       </div>
       <div className="fr-container centered-text fr-my-2w">
         <a
-          className="fr-raw-link "
+          className="fr-btn fr-icon-mail-line fr-btn--icon-left fr-mr-2w fr-pl-5w fr-pr-5w"
           href="mailto:support.partenaires@agentconnect.gouv.fr"
         >
-          <Button
-            className="fr-mr-2w fr-pl-5w fr-pr-5w"
-            iconId="fr-icon-mail-line"
-          >
             Nous écrire
-          </Button>
         </a>
         <a
-          className="fr-raw-link"
+          className="fr-btn fr-btn--secondary fr-icon-code-s-slash-line fr-btn--icon-left fr-pl-3w fr-pr-3w"
           href="https://github.com/numerique-gouv/agentconnect-documentation/blob/main/README.md#-agentconnect---documentation"
         >
-          <Button
-            priority="secondary"
-            iconId="fr-icon-code-s-slash-line"
-            className="fr-pl-3w fr-pr-3w"
-          >
             Commencer vos tests
-          </Button>
         </a>
       </div>
     </div>
